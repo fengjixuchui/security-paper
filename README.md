@@ -1,10 +1,11 @@
 # Security Papers
-
+
 **（与本人兴趣强相关的）各种安全or计算机资料收集，如侵权请联系我删除～**
 
-*book, manual, paper, blog, slides, report, course, tool*
+*book, manual, paper, blog, slides, report, course, tool, online*
 
 ## Architecture
+- *2014 manual* [ARM_Architecture_Reference_Manual_ARMv7-A_and_ARMv7-R_edition](Architecture/ARM_Architecture_Reference_Manual_ARMv7-A_and_ARMv7-R_edition) -- Arm
 - *2019 manual* [Arm_Architecture_Reference_Manual](Architecture/Arm_Architecture_Reference_Manual) -- Intel
 - *2019 manual* [Intel_64_and_IA-32_Architectures_Software_Developers_Manual](Architecture/Intel_64_and_IA-32_Architectures_Software_Developers_Manual) -- Arm
 - *2017 slides* [A_tour_of_the_ARM_architecture_and_its_Linux_support](Architecture/A_tour_of_the_ARM_architecture_and_its_Linux_support) -- Thomas Petazzoni
@@ -16,6 +17,7 @@
 
 ## Program Analysis
 - *2004 book* [Principles_of_Program_Analysis](Program-Analysis/Principles_of_Program_Analysis) -- Flemming Nielson
+- *2016 paper* [SVF_Interprocedural_Static_Value-Flow_Analysis_in_LLVM](Program-Analysis/SVF_Interprocedural_Static_Value-Flow_Analysis_in_LLVM) -- Yulei Sui
 - *2018 slides* [Intro_to_Binary_Analysis_with_Z3_and_Angr](Program-Analysis/Intro_to_Binary_Analysis_with_Z3_and_Angr) -- Sam Brown
 - *2018 slides* [The_NOT-SO-PROFITABLE_Path_Towards_Automated_Heap_Exploitation](Program-Analysis/The_NOT-SO-PROFITABLE_Path_Towards_Automated_Heap_Exploitation) -- Thaís Moreira Hamasaki
 - *2018 slides* [Finding_security_vulnerabilities_with_modern_fuzzing_techniques](Program-Analysis/Finding_security_vulnerabilities_with_modern_fuzzing_techniques) -- René Freingruber
@@ -29,14 +31,21 @@
 - *2019 slides* [Fileless_Malware_and_Process_Injection_in_Linux](Malware/Fileless_Malware_and_Process_Injection_in_Linux) -- Hendrick
 
 ## Exploitation
+- *1998 paper* [StackGuard_Automatic_Adaptive_Detection_and_Prevention_of_Buffer-Overflow_Attacks](Exploitation/StackGuard_Automatic_Adaptive_Detection_and_Prevention_of_Buffer-Overflow_Attacks) -- Crispin Cowan
 - *2001 blog* [Exploiting_Format_String_Vulnerabilities](Exploitation/Exploiting_Format_String_Vulnerabilities) -- scut/team teso
 - *2001 blog* [The_advanced_return-into-libc_exploits](Exploitation/The_advanced_return-into-libc_exploits) -- Nergal
 - *2002 blog* [Advances_in_format_string_exploitation](Exploitation/Advances_in_format_string_exploitation) -- gera
+- *2005 paper* [Control-Flow_Integrity_Principles_Implementations_and_Applications](Exploitation/Control-Flow_Integrity_Principles_Implementations_and_Applications) -- Mart´ın Abadi
 - *2007 slides* [Understanding_the_heap_by_breaking_it](Exploitation/Understanding_the_heap_by_breaking_it) -- Justin N. Ferguson
 - *2008 book* [Hacking-The_Art_of_Exploitation_2nd_Edition](Exploitation/Hacking-The_Art_of_Exploitation_2nd_Edition) -- JON ERICKSON
 - *2009 paper* [Surgically_Returning_to_Randomized_libc](Exploitation/Surgically_Returning_to_Randomized_libc) -- Giampaolo Fresi Roglia
 - *2009 blog* [MALLOC_DES-MALEFICARUM](Exploitation/MALLOC_DES-MALEFICARUM) -- blackngel
+- *2010 paper* [G-Free_Defeating_Return-Oriented_Programming_through_Gadget-less_Binaries](Exploitation/G-Free_Defeating_Return-Oriented_Programming_through_Gadget-less_Binaries) -- Kaan Onarlioglu
 - *2011 book* [0day安全-软件漏洞分析技术第2版](Exploitation/0day安全-软件漏洞分析技术第2版) -- 王清
+- *2012 paper* [Return-Oriented_Programming_Systems_Languages_and_Applications](Exploitation/Return-Oriented_Programming_Systems_Languages_and_Applications) -- RYAN ROEMER
+- *2013 paper* [Transparent_ROP_Exploit_Mitigation_using_Indirect_Branch_Tracing](Exploitation/Transparent_ROP_Exploit_Mitigation_using_Indirect_Branch_Tracing) -- Vasilis Pappas
+- *2014 paper* [Hacking_Blind](Exploitation/Hacking_Blind) -- Andrea Bittau
+- *2014 paper* [Framing_Signals—A_Return_to_Portable_Shellcode](Exploitation/Framing_Signals—A_Return_to_Portable_Shellcode) -- Erik Bosman
 - *2015 paper* [How_the_ELF_Ruined_Christmas](Exploitation/How_the_ELF_Ruined_Christmas) -- Alessandro Di Federico
 - *2015 blog* [Glibc_Adventures_The_Forgotten_Chunks](Exploitation/Glibc_Adventures_The_Forgotten_Chunks) -- François Goichon
 - *2015 course* [Modern_Binary_Exploitation](Exploitation/Modern_Binary_Exploitation) -- RPISEC
@@ -44,13 +53,24 @@
 - *2016 paper* [New_Exploit_Methods_against_Ptmalloc_of_GLIBC](Exploitation/New_Exploit_Methods_against_Ptmalloc_of_GLIBC) -- Tianyi Xie
 - *2017 paper* [ASLR_on_the_Line_Practical_Cache_Attacks_on_the_MMU](Exploitation/ASLR_on_the_Line_Practical_Cache_Attacks_on_the_MMU) -- Ben Gras
 - *2017 blog* [Cyber_Grand_Shellphish](Exploitation/Cyber_Grand_Shellphish) -- Team Shellphish
+- *2019 paper* [安全漏洞自动利用综述](Exploitation/安全漏洞自动利用综述) -- 赵尚儒
 
 ## IOT
 - *2014 paper* [A_Large-Scale_Analysis_of_the_Security_of_Embedded_Firmwares](IoT/A_Large-Scale_Analysis_of_the_Security_of_Embedded_Firmwares) -- Andrei Costin
 - *2016 paper* [Towards_Automated_Dynamic_Analysis_for_Linux-based_Embedded_Firmware](IoT/Towards_Automated_Dynamic_Analysis_for_Linux-based_Embedded_Firmware) -- Daming D. Chen
+- *2017 paper* [物联网安全综述](IoT/物联网安全综述) -- 张玉清
+- *2018 paper* [智能家居安全综述](IoT/智能家居安全综述) -- 王基策
+- *2018 paper* [物联网操作系统安全研究综述](IoT/物联网操作系统安全研究综述) -- 彭安妮
 - *2018 report* [智能设备安全分析手册](IoT/智能设备安全分析手册) -- 绿盟
+- *2018 paper* [What_You_Corrupt_Is_Not_What_You_Crash_Challenges_in_Fuzzing_Embedded_Devices](IoT/What_You_Corrupt_Is_Not_What_You_Crash_Challenges_in_Fuzzing_Embedded_Devices) -- Marius Muench
+- *2018 paper* [IoTFuzzer_Discovering_Memory_Corruptions_in_IoT_Through_App-based_Fuzzing](IoT/IoTFuzzer_Discovering_Memory_Corruptions_in_IoT_Through_App-based_Fuzzing) -- Jiongyi Chen
+- *2019 paper* [车联网安全综述](IoT/车联网安全综述) -- 李兴华
 - *2019 paper* [CryptoREX_Large-scale_Analysis_of_Cryptographic_Misuse_in_IoT_Devices](IoT/CryptoREX_Large-scale_Analysis_of_Cryptographic_Misuse_in_IoT_Devices) -- Li Zhang
 - *2019 slides* [Firmware_Extraction](IoT/Firmware_Extraction) -- Pauline Bourmeau
+- *2019 report* [2019物联网安全年报](IoT/2019物联网安全年报) -- 绿盟
+- *2019 blog* [ANATOMY_OF_A_FIRMWARE_ATTACK](IoT/ANATOMY_OF_A_FIRMWARE_ATTACK) -- Eclypsium
+- *2019 blog* [Toward_Automated_Firmware_Analysis_in_the_IoT_Era](IoT/Toward_Automated_Firmware_Analysis_in_the_IoT_Era) -- Grant Hernandez
+- *2019 paper* [Sok_Security_evaluation_of_home-based_iot_deployments](IoT/Sok_Security_evaluation_of_home-based_iot_deployments) -- Omar Alrawi
 
 ## Windows
 
@@ -66,10 +86,21 @@
 - *2019 slides* [Buildroot_Training](Linux/Buildroot_Training) -- Bootlin
 
 ## Compiler
+- *1994 paper* [Reverse_Compilation_Techniques](Compiler/Reverse_Compilation_Techniques) -- Cristina Cifuentes
 - *2007 book* [Compilers_Principles_Techniques_and_Tools_2nd_Edition](Compiler/Compilers_Principles_Techniques_and_Tools_2nd_Edition) -- Alfred V. Aho
 - *2011 book* [Engineering_a_Compiler_2nd_edition](Compiler/Engineering_a_Compiler_2nd_edition) -- Keith D. Cooper
 - *2012 book* [Modern_Compiler_Design_2nd_Edition](Compiler/Modern_Compiler_Design_2nd_Edition) -- Dick Grune
 - *2014 book* [Getting_Started_with_LLVM_Core_Libraries](Compiler/Getting_Started_with_LLVM_Core_Libraries) -- Bruno Cardoso Lopes
+- *2014 slides* [BHUSA2014-capstone](Compiler/BHUSA2014-capstone) -- Nguyen Anh Quynh
+- *2016 slides* [BHUSA2016-keystone](Compiler/BHUSA2016-keystone) -- Nguyen Anh Quynh
+
+## Virtualization & Emulation
+- *2015 slides* [BHUSA2015-unicorn](Virtualization/BHUSA2015-unicorn) -- Nguyen Anh Quynh
+- *2018 slides* [Hypervisor-Level_Debugger_Benefits_Challenges](Virtualization/Hypervisor-Level_Debugger_Benefits_Challenges) -- Mathieu Tarral
+- *2018 slides* [unboxing_your_virtualboxes](Virtualization/unboxing_your_virtualboxes) -- Niklas Baumstark
+- *2018 slides* [thinking_outside_the_virtualbox](Virtualization/thinking_outside_the_virtualbox) -- Niklas Baumstark
+- *2018 blog* [intel_virtualisation_how_vt-x_kvm_and_qemu_work_together](Virtualization/intel_virtualisation_how_vt-x_kvm_and_qemu_work_together) -- Okash Khawaja
+- *2019 manual* [VirtualBox_User_Manual](Virtualization/VirtualBox_User_Manual) -- Oracle
 
 ## Cryptography
 - *2017 book* [A_Graduate_Course_in_Applied_Cryptography](Cryptography/A_Graduate_Course_in_Applied_Cryptography) -- Dan Boneh
@@ -81,9 +112,9 @@
 - *2015 blog* [Linux_x86漏洞利用系列教程](CTF/Linux_x86漏洞利用系列教程) -- sploitfun
 
 ## Others
+- *2016 paper* [云计算环境安全综述](Others/云计算环境安全综述) -- 张玉清
 - *2017 report* [X41_Browser_Security_White_Paper](Others/X41_Browser_Security_White_Paper) -- Markus Vervier
 - *2017 report* [Cure53_Browser_Security_White_Paper](Others/Cure53_Browser_Security_White_Paper) -- Dr.-Ing. Mario Heiderich
-- *2018 slides* [Hypervisor-Level_Debugger_Benefits_Challenges](Others/Hypervisor-Level_Debugger_Benefits_Challenges) -- Mathieu Tarral
 - *2018 slides* [Reversing_Vulnerability_Research_of_Ethereum_Smart_Contracts](Others/Reversing_Vulnerability_Research_of_Ethereum_Smart_Contracts) -- Patrick Ventuzelo
 - *2019 blog* [The_Beginners_Guide_to_IDAPython](Others/The_Beginners_Guide_to_IDAPython) -- Alexander Hanel
-- *2019 manual* [VirtualBox_User_Manual](Others/VirtualBox_User_Manual) -- Oracle
+- *2019 slides* [Bug_Hunting_in_Synology_NAS](Others/Bug_Hunting_in_Synology_NAS) -- Qian Chen
